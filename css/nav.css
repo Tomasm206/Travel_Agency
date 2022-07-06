@@ -1,0 +1,43 @@
+nav {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+nav ul li a {
+  font-family: var(--first-family);
+  color: #fff9f8;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  opacity: 50%;
+}
+
+button:hover {
+  opacity: 50%;
+}
+
+button {
+  padding: 20px 30px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: gray;
+  background-color: transparent;
+}
+
+button a {
+  font-family: var(--second-family);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff9f8;
+}
